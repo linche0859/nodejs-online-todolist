@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "METAWALL",
-    "description": "METAWALL 的 API 文件",
+    "title": "Online Todo List",
+    "description": "API 文件",
     "version": "1.0.0"
   },
   "host": "nodejs-nodejs-online-todolist.herokuapp.com",

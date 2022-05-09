@@ -9,8 +9,8 @@ const todoDefinition = {
 
 const doc = {
   info: {
-    title: 'METAWALL',
-    description: 'METAWALL 的 API 文件',
+    title: 'Online Todo List',
+    description: 'API 文件',
   },
   host: process.env.SWAGGER_BASE || 'localhost:3000',
   schemes:

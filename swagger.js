@@ -13,7 +13,8 @@ const doc = {
     description: 'METAWALL 的 API 文件',
   },
   host: process.env.SWAGGER_BASE || 'localhost:3000',
-  schemes: ['http', 'https'],
+  schemes:
+    process.env.NODE_ENV === 'production' ? ['https'] : ['http', 'https'],
   tags: [
     { name: 'Tests', description: '測試相關' },
     { name: 'Users', description: '帳號相關' },
